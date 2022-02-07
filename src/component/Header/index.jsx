@@ -44,13 +44,7 @@ export default function Header() {
                 className="nav-link font-weight-bolder text-light"
                 href="#team"
               >
-                Discord
-              </a>
-              <a
-                className="nav-link font-weight-bolder text-light"
-                href="#team"
-              >
-                Twitter
+                Team
               </a>
             </div>
           </div>
