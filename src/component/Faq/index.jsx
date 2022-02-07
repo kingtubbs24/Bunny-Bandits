@@ -193,9 +193,9 @@ export default function Faq() {
                       title=""
                       data-toggle="collapse"
                       data-parent="#accordion"
-                      href="#collapse4"
+                      href="#collapse5"
                       aria-expanded="true"
-                      aria-controls="collapse4"
+                      aria-controls="collapse5"
                     >
                       How many Mini Machines will be available to mint during
                       pre sale?
@@ -203,7 +203,7 @@ export default function Faq() {
                   </h3>
                 </div>
                 <div
-                  id="collapse4"
+                  id="collapse5"
                   className="panel-collapse collapse"
                   role="tabpanel"
                   aria-labelledby="heading2"
@@ -226,16 +226,16 @@ export default function Faq() {
                       title=""
                       data-toggle="collapse"
                       data-parent="#accordion"
-                      href="#collapse4"
+                      href="#collapse6"
                       aria-expanded="true"
-                      aria-controls="collapse4"
+                      aria-controls="collapse6"
                     >
                       When is the official public sale open?
                     </a>
                   </h3>
                 </div>
                 <div
-                  id="collapse4"
+                  id="collapse6"
                   className="panel-collapse collapse"
                   role="tabpanel"
                   aria-labelledby="heading2"
@@ -258,16 +258,16 @@ export default function Faq() {
                       title=""
                       data-toggle="collapse"
                       data-parent="#accordion"
-                      href="#collapse4"
+                      href="#collapse7"
                       aria-expanded="true"
-                      aria-controls="collapse4"
+                      aria-controls="collapse7"
                     >
                       Will you be donating any portion of the funds?
                     </a>
                   </h3>
                 </div>
                 <div
-                  id="collapse4"
+                  id="collapse7"
                   className="panel-collapse collapse"
                   role="tabpanel"
                   aria-labelledby="heading2"
