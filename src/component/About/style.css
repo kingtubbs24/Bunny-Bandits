@@ -1,7 +1,3 @@
-.about {
-  background-color: #040405;
-}
-
 .about h1 {
   font-size: 2.5rem !important;
   font-family: "Poppins", sans-serif;
@@ -9,10 +5,8 @@
   color: white;
 }
 
-.logo-trading {
-  width: 100px;
-  display: block;
-  margin: 0 auto;
+.about p {
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -8,7 +8,7 @@ export default function Faq() {
         <div className="row py-5">
           <div className="col-md-10 col-12 ml-auto mr-auto">
             <h1 className="fw-light t-shadow text-center mb-5">
-              <span className="text-light">Frequently Asked</span> Questionss
+              <span className="text-light">Frequently Asked</span> Questions
             </h1>
             <div
               className="panel-group"
@@ -33,7 +33,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse0"
                     >
-                      About us KAOS TRADING CLUB ?
+                      How much does a Mini Machine cost to mint?
                     </a>
                   </h3>
                 </div>
@@ -44,11 +44,7 @@ export default function Faq() {
                   aria-labelledby="heading0"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">
-                      We are a club with 4 years of experience made up of
-                      members from all over the world We trade (Futures,
-                      Cryptocurrencies, Forex).
-                    </p>
+                    <p className="text-light">1.44 SOL</p>
                   </div>
                 </div>
               </div>
@@ -70,7 +66,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse1"
                     >
-                      What are eSports ?
+                      How many Mini Machines can I mint?
                     </a>
                   </h3>
                 </div>
@@ -81,11 +77,7 @@ export default function Faq() {
                   aria-labelledby="heading1"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">
-                      They are electronic sports that are competed
-                      professionally moving millions of dollars in sponsorships
-                      and others.
-                    </p>
+                    <p className="text-light">5 per transaction</p>
                   </div>
                 </div>
               </div>
@@ -107,7 +99,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse2"
                     >
-                      How many pieces of supply ?
+                      What blockchain do the Mini Machines roam?
                     </a>
                   </h3>
                 </div>
@@ -118,7 +110,7 @@ export default function Faq() {
                   aria-labelledby="heading2"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">Only 888 pieces.</p>
+                    <p className="text-light">Solana</p>
                   </div>
                 </div>
               </div>
@@ -140,7 +132,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse3"
                     >
-                      When is the date of the MINT ?
+                      How many Mini Machines will be available?
                     </a>
                   </h3>
                 </div>
@@ -151,7 +143,7 @@ export default function Faq() {
                   aria-labelledby="heading3"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">19 february</p>
+                    <p className="text-light">5,555 ONLY!</p>
                   </div>
                 </div>
               </div>
@@ -173,7 +165,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse4"
                     >
-                      What will be the cost of the MINT ?
+                      When is the pre-sale open?
                     </a>
                   </h3>
                 </div>
@@ -184,7 +176,108 @@ export default function Faq() {
                   aria-labelledby="heading2"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">0.9 SOL</p>
+                    <p className="text-light">March 4, 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading2"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse4"
+                      aria-expanded="true"
+                      aria-controls="collapse4"
+                    >
+                      How many Mini Machines will be available to mint during
+                      pre sale?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse4"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading2"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">2,000 Mini Machines</p>
+                  </div>
+                </div>
+              </div>
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading2"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse4"
+                      aria-expanded="true"
+                      aria-controls="collapse4"
+                    >
+                      When is the official public sale open?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse4"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading2"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">March 5, 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading2"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse4"
+                      aria-expanded="true"
+                      aria-controls="collapse4"
+                    >
+                      Will you be donating any portion of the funds?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse4"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading2"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">
+                      Yes! We have pledged 55,555 to At-Risk Youth, Victims of
+                      Sexual Abuse/Assault, Victims of Domestic Violence and
+                      Military Veterans with Disabilities or battling PTSD.
+                    </p>
                   </div>
                 </div>
               </div>

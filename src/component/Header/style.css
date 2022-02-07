@@ -1,10 +1,15 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../../assets/images/banner.png);
+  background-image: url(../../assets/images/banner.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.masthead .desc {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .masthead h1 {
@@ -13,7 +18,7 @@
 }
 
 nav h3 {
-  font-family: "God", Courier, monospace;
+  font-family: "Spartan", sans-serif;
   padding-top: 10px;
   color: red;
   text-shadow: 2px 2px #8d2424;

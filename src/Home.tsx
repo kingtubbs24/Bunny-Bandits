@@ -30,8 +30,8 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_NAME
 
 const Card = styled(Paper)`
   display: inline-block;
-  background-color: #f9c1b1;
-  background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
 
   margin: 5px;
   padding: 10px;
@@ -389,7 +389,7 @@ const Home = (props: HomeProps) => {
               />
             ) : !wallet ? (
               <>
-                <p style={{ fontWeight: "bold" }}>
+                <p style={{ fontWeight: "bold" }} className="t-shadow">
                   {" "}
                   Please Connect Wallet to Mint
                 </p>
