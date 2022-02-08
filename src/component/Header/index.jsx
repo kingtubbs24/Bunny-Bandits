@@ -58,7 +58,7 @@ export default function Header() {
               <h1 className="fw-light t-shadow">Welcome to</h1>
               <h1 className="fw-light t-shadow">Mini Machines</h1>
               <p className="lead text-justify desc t-shadow">
-                5,555 Mini Machines roaming the Solana Network! <br /> Our
+                5,555 Mini Machines roaming the Solana Network! Our
                 holders will reap rewards and be able to participate in many
                 giveaways. Our primary goal is to give back to multiple
                 organizations and communities to help those in need. Mini
