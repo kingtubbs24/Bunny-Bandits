@@ -10,9 +10,9 @@ export default function Footer() {
           <a href="https://www.instagram.com/minimachinesnft/">
             <i class="icon ion-social-instagram"></i>
           </a>
-          <a href="https://discord.gg/H4seu4HJ">
+          {/* <a href="https://discord.gg/H4seu4HJ">
             <i class="fab fa-discord"></i>
-          </a>
+          </a> */}
           <a href="https://twitter.com/MiniMachinesNFT">
             <i class="icon ion-social-twitter"></i>
           </a>
