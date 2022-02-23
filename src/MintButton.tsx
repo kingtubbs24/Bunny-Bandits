@@ -6,22 +6,29 @@ import { GatewayStatus, useGateway } from "@civic/solana-gateway-react";
 import { CandyMachine } from "./candy-machine";
 
 export const CTAButton = styled(Button)`
-  width: 150px;
-  background: #ed213a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  justify-content: center !important;
-  font-size: 1.2em;
-  color: white !important;
+  display: inline-block !important;
+  outline: none !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  border-radius: 500px !important;
+  transition-property: background-color, border-color, color, box-shadow, filter !important;
+  transition-duration: 0.3s !important;
+  border: 1px solid transparent !important;
+  letter-spacing: 2px !important;
+  min-width: 160px !important;
+  text-transform: uppercase !important;
+  white-space: normal !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  padding: 17px 48px !important;
+  color: #fff !important;
+  background-color: #f0c06c !important;
+  height: 48px !important;
+  :hover {
+    transform: scale(1.04) !important;
+    background-color: #f0c06c !important;
+  }
 `;
 
 export const MintButton = ({

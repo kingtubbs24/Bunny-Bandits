@@ -1,71 +1,27 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import App from "../../App";
+import Gif from "../../assets/images/nft.gif";
 import "./style.css";
 
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-        <div className="container">
-          <h3>Mini Machines</h3>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ml-auto">
-              <a className="nav-link font-weight-bolder text-light" href="#">
-                Home
-              </a>
-              <a
-                className="nav-link font-weight-bolder text-light"
-                href="#about"
-              >
-                About
-              </a>
-              <a
-                className="nav-link font-weight-bolder text-light"
-                href="#roadmap"
-              >
-                Roadmap
-              </a>
-              <a className="nav-link font-weight-bolder text-light" href="#faq">
-                Faq
-              </a>
-              <a
-                className="nav-link font-weight-bolder text-light"
-                href="#team"
-              >
-                Team
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
       <header className="masthead">
-        <div className="container h-100">
+        <div className="container h-100" data-aos="zoom-in">
           <div className="row h-100 align-items-center">
-            <div className="col-md-6 col-12">
-              <h1 className="fw-light t-shadow">Welcome to</h1>
-              <h1 className="fw-light t-shadow">Mini Machines</h1>
-              <p className="lead text-justify desc t-shadow">
-                5,555 Mini Machines roaming the Solana Network! Our
-                holders will reap rewards and be able to participate in many
-                giveaways. Our primary goal is to give back to multiple
-                organizations and communities to help those in need. Mini
-                Machines will be randomly generated with no special privileges
-                for anyone! Welcome to the Mini Machine Family!
+            <div className="col-12 col-md-6">
+              <h1 className="fw-light t-shadow">
+                Welcome to <br /> Bunny Masks
+              </h1>
+              <p>
+                You can mint one of your very own, unique Bunny Mask's using the
+                mint button below
               </p>
               <App />
+            </div>
+            <div className="col-md-6 col-12">
+              <img src={Gif} alt="nft-gif" className="img-fluid" />
             </div>
           </div>
         </div>

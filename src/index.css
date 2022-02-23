@@ -11,8 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/images/bg-stars.png");
-  background-color: #160752;
+  background-image: url("./assets/images/background2.png");
+  background-color: #18528f;
   /* background-color: #213c00; */
   color: #ffffff;
 }

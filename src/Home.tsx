@@ -30,8 +30,22 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_NAME
 
 const Card = styled(Paper)`
   display: inline-block;
-  background-color: #7f53ac;
-  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
 
   margin: 5px;
   padding: 10px;
@@ -63,22 +77,29 @@ const MintButtonContainer = styled.div`
 `;
 
 const ConnectButton = styled(WalletMultiButton)`
-  width: 250px;
-  background: #ed213a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  justify-content: center !important;
-  font-size: 1.2em;
-  color: white !important;
+  display: inline-block !important;
+  outline: none !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  border-radius: 500px !important;
+  transition-property: background-color, border-color, color, box-shadow, filter !important;
+  transition-duration: 0.3s !important;
+  border: 1px solid transparent !important;
+  letter-spacing: 2px !important;
+  min-width: 160px !important;
+  text-transform: uppercase !important;
+  white-space: normal !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  padding: 17px 48px !important;
+  color: #fff !important;
+  background-color: #f0c06c !important;
+  height: 48px !important;
+  :hover {
+    transform: scale(1.04) !important;
+    background-color: #f0c06c !important;
+  }
 `;
 
 const SolExplorerLink = styled.a`
@@ -358,22 +379,20 @@ const Home = (props: HomeProps) => {
     <main>
       <MainContainer>
         <MintContainer>
-          {wallet && isActive && whitelistEnabled && whitelistTokenBalance > 0 && (
+          {/* {wallet && isActive && whitelistEnabled && whitelistTokenBalance > 0 && (
             <>
               <p style={{ color: "black", fontWeight: "bold" }}>
                 You have {whitelistTokenBalance} whitelist mint(s) remaining.
               </p>
             </>
-          )}
+          )} */}
           {wallet && isActive && (
             /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
             <>
-              <p style={{ color: "black", fontWeight: "bold" }}>
+              <p style={{ color: "white", fontWeight: "bold" }}>
                 TOTAL MINTED: {itemsRedeemed} / {itemsAvailable}
               </p>
-              <p style={{ color: "black", fontWeight: "bold" }}>
-                Price: 0.9 SOL
-              </p>
+              <p style={{ color: "white", fontWeight: "bold" }}>Price: 1 SOL</p>
             </>
           )}
           <br />
@@ -389,7 +408,10 @@ const Home = (props: HomeProps) => {
               />
             ) : !wallet ? (
               <>
-                <p style={{ fontWeight: "bold" }} className="t-shadow">
+                <p
+                  style={{ fontWeight: "bold", color: "#f0c06c" }}
+                  className="t-shadow"
+                >
                   {" "}
                   Please Connect Wallet to Mint
                 </p>
