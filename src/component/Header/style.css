@@ -6,14 +6,9 @@
   background-repeat: no-repeat;
 }
 
-.masthead h1 {
-  font-family: "Spartan", sans-serif;
-  color: white;
-}
-
 .masthead p {
   font-size: 1.2rem;
-  color: #efc06c;
+  text-align: justify;
   font-weight: bold;
   text-shadow: 1px 1px black;
 }

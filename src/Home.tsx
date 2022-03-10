@@ -30,23 +30,13 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_NAME
 
 const Card = styled(Paper)`
   display: inline-block;
+  background: rgb(238, 174, 202);
   background: radial-gradient(
-      ellipse farthest-corner at right bottom,
-      #fedb37 0%,
-      #fdb931 8%,
-      #9f7928 30%,
-      #8a6e2f 40%,
-      transparent 80%
-    ),
-    radial-gradient(
-      ellipse farthest-corner at left top,
-      #ffffff 0%,
-      #ffffac 8%,
-      #d1b464 25%,
-      #5d4a1f 62.5%,
-      #5d4a1f 100%
-    );
-
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  text-align: center;
   margin: 5px;
   padding: 10px;
 `;
@@ -94,11 +84,11 @@ const ConnectButton = styled(WalletMultiButton)`
   text-align: center !important;
   padding: 17px 48px !important;
   color: #fff !important;
-  background-color: #f0c06c !important;
+  background-color: #fdcaa9 !important;
   height: 48px !important;
   :hover {
     transform: scale(1.04) !important;
-    background-color: #f0c06c !important;
+    background-color: #fdcaa9 !important;
   }
 `;
 
@@ -236,19 +226,19 @@ const Home = (props: HomeProps) => {
     return (
       <div style={{ width: "50% !important" }}>
         <Card elevation={1}>
-          <h1>{days}</h1>
+          <h1 style={{ color: "white" }}>{days}</h1>
           Days
         </Card>
         <Card elevation={1}>
-          <h1>{hours}</h1>
+          <h1 style={{ color: "white" }}>{hours}</h1>
           Hours
         </Card>
         <Card elevation={1}>
-          <h1>{minutes}</h1>
+          <h1 style={{ color: "white" }}>{minutes}</h1>
           Mins
         </Card>
         <Card elevation={1}>
-          <h1>{seconds}</h1>
+          <h1 style={{ color: "white" }}>{seconds}</h1>
           Secs
         </Card>
       </div>
@@ -392,7 +382,9 @@ const Home = (props: HomeProps) => {
               <p style={{ color: "white", fontWeight: "bold" }}>
                 TOTAL MINTED: {itemsRedeemed} / {itemsAvailable}
               </p>
-              <p style={{ color: "white", fontWeight: "bold" }}>Price: 1 SOL</p>
+              <p style={{ color: "white", fontWeight: "bold" }}>
+                Price: 0.26 SOL
+              </p>
             </>
           )}
           <br />
@@ -408,10 +400,7 @@ const Home = (props: HomeProps) => {
               />
             ) : !wallet ? (
               <>
-                <p
-                  style={{ fontWeight: "bold", color: "#f0c06c" }}
-                  className="t-shadow"
-                >
+                <p style={{ fontWeight: "bold" }} className="t-shadow">
                   {" "}
                   Please Connect Wallet to Mint
                 </p>
