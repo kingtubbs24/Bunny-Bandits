@@ -33,7 +33,10 @@ export default function Header() {
                     <a href="https://twitter.com/Punk_Babies" target="_blank">
                       <i class="icon ion-social-twitter"></i>
                     </a>
-                    <a href="https://discord.gg/6dE6t6QfvR" target="_blank">
+                    <a
+                      href="https://discord.com/invite/2QQrryNYbN"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-discord"></i>
                     </a>
                   </div>
