@@ -30,12 +30,9 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_NAME
 
 const Card = styled(Paper)`
   display: inline-block;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background-color: #ff7878;
+  background-image: linear-gradient(315deg, #ff7878 0%, #ff0000 74%);
+
   text-align: center;
   margin: 5px;
   padding: 10px;
@@ -84,11 +81,11 @@ const ConnectButton = styled(WalletMultiButton)`
   text-align: center !important;
   padding: 17px 48px !important;
   color: #fff !important;
-  background-color: #fdcaa9 !important;
+  background-color: #5e0d0c !important;
   height: 48px !important;
   :hover {
     transform: scale(1.04) !important;
-    background-color: #fdcaa9 !important;
+    background-color: #5e0d0c !important;
   }
 `;
 
@@ -382,9 +379,7 @@ const Home = (props: HomeProps) => {
               <p style={{ color: "white", fontWeight: "bold" }}>
                 TOTAL MINTED: {itemsRedeemed} / {itemsAvailable}
               </p>
-              <p style={{ color: "white", fontWeight: "bold" }}>
-                Price: 0.26 SOL
-              </p>
+              <p style={{ color: "white", fontWeight: "bold" }}>Price: 3 SOL</p>
             </>
           )}
           <br />

@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: myFirstFont;
+  src: url("./assets/zounderkiterotate2.ttf");
+}
 
 html {
   scroll-behavior: smooth;
@@ -10,15 +13,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./assets/images/background2.png");
-  background-color: #18528f;
-  /* background-color: #213c00; */
   color: #ffffff;
 }
 
 h1 {
-  font-size: 3rem;
-  color: black;
-  font-family: "Press Start 2P", cursive;
+  font-size: 4rem;
+  color: #ec1c32;
+  font-family: "myFirstFont", cursive;
 }
 
 .t-shadow {

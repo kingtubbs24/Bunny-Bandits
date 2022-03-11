@@ -23,11 +23,11 @@ export const CTAButton = styled(Button)`
   text-align: center !important;
   padding: 17px 48px !important;
   color: #fff !important;
-  background-color: #fdcaa9 !important;
+  background-color: #5e0d0c !important;
   height: 48px !important;
   :hover {
     transform: scale(1.04) !important;
-    background-color: #fdcaa9 !important;
+    background-color: #5e0d0c !important;
   }
 `;
 
