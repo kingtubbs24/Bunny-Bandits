@@ -22,7 +22,7 @@ export default function Header() {
               <App />
             </div>
             <div className="col-md-6 col-12">
-              <img src={Gif} alt="nft-gif" className="img-fluid mt-5" />
+              <img src={Gif} alt="nft-gif" className="img-fluid my-5" />
             </div>
             <div className="col-md-12">
               {" "}
