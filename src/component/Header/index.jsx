@@ -13,7 +13,7 @@ export default function Header() {
           <div className="row h-100 align-items-center">
             <div className="col-12 col-md-6">
               <h1 className="fw-light t-shadow">
-                Welcome to <br /> ELITE SANTA CLUB
+                Welcome to the <br /> ELITE SANTA CLUB
               </h1>
               <p>
                 The Elite Santa Club is a private collection of 10,000 unique
@@ -22,7 +22,7 @@ export default function Header() {
               <App />
             </div>
             <div className="col-md-6 col-12">
-              <img src={Gif} alt="nft-gif" className="img-fluid" />
+              <img src={Gif} alt="nft-gif" className="img-fluid mt-5" />
             </div>
             <div className="col-md-12">
               {" "}
