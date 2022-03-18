@@ -374,8 +374,13 @@ const Home = (props: HomeProps) => {
             </>
           )} */}
           {wallet && isActive && (
-            /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
             <>
+              {/* <p>
+                Total Minted : {100 - (itemsRemaining * 100) / itemsAvailable}
+              </p> */}
+              <p style={{ color: "white", fontWeight: "bold" }}>
+                Total Minted : {6827 + itemsRedeemed} / {itemsAvailable}
+              </p>
               <p style={{ color: "white", fontWeight: "bold" }}>Price: 3 SOL</p>
             </>
           )}
