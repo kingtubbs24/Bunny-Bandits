@@ -13,11 +13,24 @@ export default function Header() {
           <div className="row h-100 align-items-center">
             <div className="col-12 col-md-6">
               <h1 className="fw-light t-shadow">
-                Welcome to the <br /> ELITE SANTA CLUB
+                Welcome to the <br />
+                Lioness Cubs
               </h1>
-              <p>
-                The Elite Santa Club is a private collection of 10,000 unique
-                Elite Santa’s characters.
+              <p
+                style={{
+                  border: " 1px solid black",
+                  backgroundColor: "rgb(220, 229, 236)",
+                  padding: "10px",
+                  borderRadius: "10px",
+                }}
+              >
+                1,111 Hand-drawn uniquely generated Lioness Cubs by a team of
+                animal lovers. Strong DAO. Our token $CLAW will launch March
+                2022! Staking platform will be available to Cubs Club holders.
+                $CLAW token will have multiple utilities and will be able to be
+                used on our in-house ecosystem, future breeding and to redeem
+                rewards. Check out our Discord Community for all details! <br />
+                Whitelist 0.3 SOL & Public 0.5 Sol
               </p>
               <App />
             </div>
@@ -42,7 +55,7 @@ export default function Header() {
                       <i class="fa-brands fa-discord"></i>
                     </a>
                   </div>
-                  <p class="copyright">Elite Santa Club © 2022</p>
+                  <p class="copyright">Lioness Cubs © 2022</p>
                 </footer>
               </div>
             </div>
