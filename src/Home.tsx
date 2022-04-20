@@ -381,7 +381,9 @@ const Home = (props: HomeProps) => {
               <p style={{ color: "white", fontWeight: "bold" }}>
                 Total Minted : {6827 + itemsRedeemed} / {itemsAvailable}
               </p>
-              <p style={{ color: "white", fontWeight: "bold" }}>Price: 3 SOL</p>
+              <p style={{ color: "white", fontWeight: "bold" }}>
+                Price: {price + " " + priceLabel}
+              </p>
             </>
           )}
           <br />

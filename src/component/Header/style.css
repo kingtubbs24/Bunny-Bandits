@@ -1,14 +1,11 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .masthead p {
   font-size: 1.2rem;
-  color: black;
+  text-shadow: 1px 1px black;
   text-align: justify;
   font-weight: bold;
 
