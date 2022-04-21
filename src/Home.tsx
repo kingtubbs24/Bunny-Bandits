@@ -379,7 +379,7 @@ const Home = (props: HomeProps) => {
                 Total Minted : {100 - (itemsRemaining * 100) / itemsAvailable}
               </p> */}
               <p style={{ color: "white", fontWeight: "bold" }}>
-                Total Minted : {6827 + itemsRedeemed} / {itemsAvailable}
+                Total Minted : {itemsRedeemed} / {itemsAvailable}
               </p>
               <p style={{ color: "white", fontWeight: "bold" }}>
                 Price: {price + " " + priceLabel}
