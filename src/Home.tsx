@@ -382,7 +382,8 @@ const Home = (props: HomeProps) => {
                 Total Minted : {itemsRedeemed} / {itemsAvailable}
               </p>
               <p style={{ color: "white", fontWeight: "bold" }}>
-                Price: {price + " " + priceLabel}
+                {/* Price: {price + " " + priceLabel} */}
+                Price: 0.3 Sol
               </p>
             </>
           )}
