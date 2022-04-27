@@ -1,7 +1,4 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url("./assets/zounderkiterotate2.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -19,8 +16,8 @@ body {
 
 h1 {
   font-size: 4rem;
-  color: #ec1c32;
-  font-family: "myFirstFont", cursive;
+  color: black;
+  font-family: 'Orelega One', cursive;
 }
 
 .t-shadow {
